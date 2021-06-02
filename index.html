@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+       
+    <title>D5</title>
+</head>
+<body>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="anatomia" src="./D6.gltf"></a-asset-item>
+            <a-asset-item id="anatomia2" src="./D7.gltf"></a-asset-item>
+          </a-assets>
+          
+          <a-gltf-model src="#anatomia"position="-3.047 -9.869 -2.900"scale="2 2 2"></a-gltf-model>
+          <a-gltf-model src="#anatomia2"position="0 -2.101 0" rotation="180.000 -8.763 180.000" scale="1 1 1"></a-gltf-model>
+          <a-entity camera look-controls wasd-controls="acceleration:200" position="6.291 11.105 -1.667" rotation="11.001 95.913 0" scale="1 1 1"></a-entity>
+          <a-video width="16" height="9" position="3.035 11.309 2.373" rotation="0 80 0" scale="0.270 0.360 1.000" src="Prueba risa 1.mp4"></a-video>
+          <a-video width="16" height="9" position="-4.221 11.324 -1.374" rotation="0 80 0" scale="0.270 0.360 1.000"src="Prueba risa 2.mp4"></a-video>
+          <a-video width="16" height="9"position="1.050 0.927 -1.935" rotation="0 -30.000 0" scale="0.150 0.190 1.000"src="Pruebas 3.mp4"></a-video>
+          <a-video width="16" height="9"position="1.343 5.468 -3.655" rotation="-10.420 -6.647 1.663" scale="0.150 0.190 1.000"src="Prueba 10.mp4"></a-video>
+          <a-sound src="src: url(./.mp3)" autoplay="true" position="0 2 5"></a-sound>
+          <a-sky src="camino2.mp4"></a-sky>
+</body>
+</html>
